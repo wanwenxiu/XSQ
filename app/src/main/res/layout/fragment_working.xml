@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/bufang"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:drawablePadding="20px"
+            android:drawableTop="@mipmap/bufang"
+            android:gravity="center"
+            android:text="布防" />
+
+        <TextView
+            android:id="@+id/yuyin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:drawablePadding="20px"
+            android:drawableTop="@mipmap/yuyin"
+            android:gravity="center"
+            android:text="语音" />
+
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/baojing"
+            android:drawablePadding="20px"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:drawableTop="@mipmap/baojing"
+            android:gravity="center"
+            android:text="报警" />
+
+
+        <TextView
+            android:id="@+id/zhuatu"
+            android:layout_width="0dp"
+            android:drawablePadding="20px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:drawableTop="@mipmap/zhuatu"
+            android:gravity="center"
+            android:text="抓图" />
+
+
+    </com.zhy.autolayout.AutoLinearLayout>
+</LinearLayout>
